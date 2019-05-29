@@ -4,7 +4,7 @@ class Plaga {
 	method transmiteEnfermedad() = poblacion >= 10
 	
 	method atacar(elemento){
-		elemento.fueAtacado(self)
 		poblacion *= 1.1
+		elemento.fueAtacado(self)
 	}
 }

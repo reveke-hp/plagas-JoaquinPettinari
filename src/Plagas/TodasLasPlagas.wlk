@@ -29,10 +29,9 @@ class PlagaPulgas inherits Plaga{
 	method nivelDanio() = poblacion * 2	
 }
 //---------------- Garrapatas -------------
-class PlagaGarrapatas inherits Plaga{
-	method nivelDanio() = poblacion * 2
-	
+class PlagaGarrapatas inherits PlagaPulgas{
 	override method atacar(elemento){
-		poblacion *= 1.2		
+		poblacion *= 1.2
+		elemento.fueAtado(self)
 	}
 }
