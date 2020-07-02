@@ -1,4 +1,4 @@
-# Plagas
+# Plagas - Copia
 
 Se trata de desarrollar un modelo que permita estudiar los efectos que se producen cuando una **plaga** ataca a un **elemento**.
 
